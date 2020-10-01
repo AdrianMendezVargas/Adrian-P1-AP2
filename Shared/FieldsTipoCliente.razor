@@ -1,0 +1,12 @@
+<div class="form-field">
+    <label>Nombres: </label>
+    <div>
+        <InputText @bind-Value="tipoCliente.Descripcion"/><br/>
+        <ValidationMessage For="()=>tipoCliente.Descripcion"/>
+    </div>
+    
+</div>
+
+@code {
+    [Parameter] public TipoCliente tipoCliente { get; set; }
+}
