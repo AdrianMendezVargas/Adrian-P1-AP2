@@ -1,0 +1,46 @@
+
+@page "/TipoCliente"
+
+@inject IToastService toast
+
+<EditForm Model="TipoCliente" OnValidSubmit="Guardar">
+    <DataAnnotationsValidator />
+    <div class="card">
+        <div class="card-header">
+            <h3>Registrar Ti[pos de Clientes</h3>
+        </div>
+        <div class="card-body">
+            <form>
+                @*TipoClienteId*@
+                <div class="form-row align-items-center">
+                    <div class="col">
+                        <div class="form-group">
+                            <label>Tipo Id</label>
+                            <div class="input-group">
+                                <InputNumber @bind-Value="TipoCliente.TipoClienteId" class="form-control col-4" />
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-primary input-group-text" @onclick="Buscar">Buscar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                @*Descripcion*@
+                <div class="form-group">
+                    <label>Descripcion</label>
+                    <InputText @bind-Value="TipoCliente.Descripcion" class="form-control" />
+                    <ValidationMessage For="@(() => TipoCliente.Descripcion)" />
+                </div>
+
+            </form>
+        </div>
+        <div class="card-footer">
+            <div class="form-group text-center" display: inline-block>
+                <button type="button" class="btn btn-lg btn-primary" @onclick="Nuevo">Nuevo</button>
+                <button type="submit" class="btn btn-lg btn-success">Guardar</button>
+                <button type="button" class="btn btn-lg btn-danger" @onclick="Eliminar">Eliminar</button>
+            </div>
+        </div>
+    </div>
+</EditForm>

@@ -96,7 +96,7 @@
           "Microsoft.EntityFrameworkCore.Relational": "3.1.8"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
+          "lib/netstandard2.0/_._": {}
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {}
@@ -1186,19 +1186,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Hp\\.nuget\\packages\\": {}
+    "C:\\Users\\ELPADRINO\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Hp\\source\\Aplicada2\\Adrian-P1-AP2\\Adrian-P1-AP2.csproj",
+      "projectUniqueName": "C:\\Users\\ELPADRINO\\source\\repos\\Adrian-P1-AP2\\Adrian-P1-AP2.csproj",
       "projectName": "Adrian-P1-AP2",
-      "projectPath": "C:\\Users\\Hp\\source\\Aplicada2\\Adrian-P1-AP2\\Adrian-P1-AP2.csproj",
-      "packagesPath": "C:\\Users\\Hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Hp\\source\\Aplicada2\\Adrian-P1-AP2\\obj\\",
+      "projectPath": "C:\\Users\\ELPADRINO\\source\\repos\\Adrian-P1-AP2\\Adrian-P1-AP2.csproj",
+      "packagesPath": "C:\\Users\\ELPADRINO\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\ELPADRINO\\source\\repos\\Adrian-P1-AP2\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\Hp\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ELPADRINO\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
